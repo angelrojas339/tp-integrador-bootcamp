@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VapeWorld | Acerca</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+    <header class="nav">
+        <div class="container nav__inner">
+            <a href="/index.html" class="nav__brand">
+                <span class="nav__brand-logo">VW</span><span>VapeWorld</span>
+            </a>
+            <input type="checkbox" id="nav-toggle" class="nav__checkbox" />
+            <label for="nav-toggle" class="nav__toggle">☰</label>
+            <nav class="nav__menu" aria-label="Principal">
+                <a class="nav__link" href="/index.html">Inicio</a>
+                <a class="nav__link" href="/pages/productos.html">Productos</a>
+                <a class="nav__link nav__link--active" href="/pages/acerca.html">Acerca</a>
+                <a class="nav__link" href="/pages/contacto.html">Contacto</a>
+                <a class="nav__cart" href="/pages/carrito.html">🛒 Carrito</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container u-gap-3">
+            <section class="panel">
+                <h1>Acerca de VapeWorld</h1>
+                <p>
+                    Este sitio es una práctica de un e-commerce utilizando únicamente
+                    <strong>HTML + CSS</strong>, con estructura semántica, responsive.
+                </p>
+            </section>
+
+            <section class="panel">
+                <h2>Paleta de colores</h2>
+                <div class="palette">
+                    <div class="swatch swatch--bg">bg</div>
+                    <div class="swatch swatch--surface">surface</div>
+                    <div class="swatch swatch--primary">primary</div>
+                    <div class="swatch swatch--accent">accent</div>
+                    <div class="swatch swatch--text">text</div>
+                    <div class="swatch swatch--muted">muted</div>
+                    <div class="swatch swatch--danger">danger</div>
+                </div>
+                <p class="u-muted" style="margin-top:.8rem">
+                    Los colores están definidos como variables CSS en <code>:root</code> (ver
+                    <code>/css/style.css</code>).
+                </p>
+            </section>
+
+            <section class="panel">
+                <h2>Metodología BEM</h2>
+                <p>
+                    Se utilizó BEM para el nombrado de clases en componentes:
+                    <code>.nav</code>, <code>.card</code>, <code>.table</code>, <code>.hero</code>, etc.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <small class="footer__copy">© 2025 VapeWorld</small>
+        </div>
+    </footer>
+</body>
+
+</html>

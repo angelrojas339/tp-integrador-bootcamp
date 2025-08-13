@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VapeWorld | Contacto</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+    <header class="nav">
+        <div class="container nav__inner">
+            <a href="/index.html" class="nav__brand">
+                <span class="nav__brand-logo">VW</span><span>VapeWorld</span>
+            </a>
+            <input type="checkbox" id="nav-toggle" class="nav__checkbox" />
+            <label for="nav-toggle" class="nav__toggle">☰</label>
+            <nav class="nav__menu" aria-label="Principal">
+                <a class="nav__link" href="/index.html">Inicio</a>
+                <a class="nav__link" href="/pages/productos.html">Productos</a>
+                <a class="nav__link" href="/pages/acerca.html">Acerca</a>
+                <a class="nav__link nav__link--active" href="/pages/contacto.html">Contacto</a>
+                <a class="nav__cart" href="/pages/carrito.html">🛒 Carrito</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container">
+            <section class="panel">
+                <h1>Contacto</h1>
+                <p>Ante cualquier consulta, escribinos.</p>
+
+                <form class="u-gap-3" action="#" method="get" aria-label="Formulario de contacto">
+                    <div class="u-gap-2">
+                        <label for="nombre">Nombre</label>
+                        <input class="input" id="nombre" name="nombre" type="text" placeholder="Tu nombre" />
+                    </div>
+                    <div class="u-gap-2">
+                        <label for="email">Email</label>
+                        <input class="input" id="email" name="email" type="email" placeholder="tu@email.com" />
+                    </div>
+                    <div class="u-gap-2">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="input" id="mensaje" name="mensaje" rows="5"
+                            placeholder="¿En qué podemos ayudarte?"></textarea>
+                    </div>
+                    <div>
+                        <button class="btn btn--primary" type="submit">Enviar</button>
+                        <a class="btn btn--ghost" href="/index.html">Volver</a>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <small class="footer__copy">2025 VapeWorld.</small>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VapeWorld | Carrito</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+    <header class="nav">
+        <div class="container nav__inner">
+            <a href="/index.html" class="nav__brand">
+                <span class="nav__brand-logo">VW</span><span>VapeWorld</span>
+            </a>
+            <input type="checkbox" id="nav-toggle" class="nav__checkbox" />
+            <label for="nav-toggle" class="nav__toggle">☰</label>
+            <nav class="nav__menu" aria-label="Principal">
+                <a class="nav__link" href="/index.html">Inicio</a>
+                <a class="nav__link" href="/pages/productos.html">Productos</a>
+                <a class="nav__link" href="/pages/acerca.html">Acerca</a>
+                <a class="nav__link" href="/pages/contacto.html">Contacto</a>
+                <a class="nav__cart nav__link--active" href="/pages/carrito.html">🛒 Carrito</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container u-gap-3">
+            <header class="u-gap-2">
+                <h1>Carrito</h1>
+            </header>
+
+            <section class="panel">
+                <div class="u-gap-3">
+                    <table class="table" aria-describedby="cart-nota">
+                        <caption id="cart-nota" class="u-muted" style="caption-side: bottom; padding-top: .6rem;">
+                            Este carrito es demostrativo. Para la consigna se solicita visualización con tablas.
+                        </caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Producto</th>
+                                <th scope="col">Precio</th>
+                                <th scope="col">Cant.</th>
+                                <th scope="col">Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Vape Pro X</strong><br />
+                                    <small class="u-muted">Kit completo</small>
+                                </td>
+                                <td>$149.999</td>
+                                <td>1</td>
+                                <td>$149.999</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Líquido Menta 60ml</strong><br />
+                                    <small class="u-muted">Fresh Mint</small>
+                                </td>
+                                <td>$17.999</td>
+                                <td>2</td>
+                                <td>$35.998</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3" class="u-right">Subtotal</td>
+                                <td>$185.997</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="u-right">Envío (estimado)</td>
+                                <td>$4.003</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="u-right">Total</td>
+                                <td><strong>$190.000</strong></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    <div class="u-right">
+                        <a class="btn btn--ghost" href="/pages/productos.html">Seguir comprando</a>
+                        <a class="btn btn--danger" href="#">Vaciar</a>
+                        <a class="btn btn--primary" href="#">Finalizar compra</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <small class="footer__copy">© 2025 VapeWorld</small>
+        </div>
+    </footer>
+</body>
+
+</html>
