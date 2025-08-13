@@ -316,6 +316,16 @@ p {
     display: block
 }
 
+@media (max-width: 640px){
+  .card__img{
+    height: 100%;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    background-color: white;
+
+  }
+}
+
 .card__body {
     padding: var(--space-4);
     display: grid;
